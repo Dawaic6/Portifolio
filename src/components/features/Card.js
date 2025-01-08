@@ -27,6 +27,7 @@ const Card = ({title,des,icon}) => {
             <p className="base">{des}</p>
             <span className="text-2xl text-designColor">
               <HiArrowRight />
+              
             </span>
           </div>
         </div>
