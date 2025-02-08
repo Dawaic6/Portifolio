@@ -1,24 +1,15 @@
+# Cedric's Portfolio
 
-## Available Scripts
+Welcome to my personal portfolio repository! This portfolio showcases my skills, projects, and experiences as a software developer.
 
-In the project directory, you can run:
+## 🌍 Live Demo
 
-### `npm start`
+[🚀 View Portfolio](https://cedricportifolio.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 About Me
+I am Iradukunda Sangwa Cedric, a passionate software developer specializing in backend development with Java and full-stack web development using React, TypeScript, Node.js, and Tailwind CSS. I have experience working on various projects, including ICT infrastructure, digital transformation, and system development.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Technologies Used
+- **Frontend:** React, JavaScript, Tailwind CSS
+- **Version Control:** Git, GitHub
+- **Deployment:** Netlify
