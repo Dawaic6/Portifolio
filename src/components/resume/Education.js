@@ -33,9 +33,14 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Certifications</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <ResumeCard
+          title="Embedded Systems and IoT Training"
+          subTitle="WatchIT Group (2020 - 2021)"
+          des="I acquired hands-on experience in embedded systems and IoT, focusing on microcontroller programming, sensor integration, and real-time data communication for smart devices."
+        />
         <ResumeCard
             title="Full Stack Developer"
             subTitle="Andela - (February_2024-December_2024)"
@@ -51,6 +56,16 @@ const Education = () => {
              IP addressing, routing, switching, and network security. 
              I learned how to design, implement, and troubleshoot network infrastructures
               to ensure efficient and secure communication."
+          />
+          <ResumeCard
+            title="Web Development Certification"
+            subTitle="Carnegie Mellon University"
+            des="I completed a certification program covering FastAPI, React, TypeScript, and JavaScript, enhancing my web development skills."
+          />
+          <ResumeCard
+            title="Networking Basics"
+            subTitle="Cisco Academy"
+            des="I gained foundational knowledge in networking, including IP addressing, routing, switching, and network security."
           />
         </div>
       </div>

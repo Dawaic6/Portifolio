@@ -30,6 +30,16 @@ const Experience = () => {
              I learned how to design, implement, and troubleshoot network infrastructures
               to ensure efficient and secure communication."
           />
+          <ResumeCard
+            title="Full-Stack Developer (Part-Time)"
+            subTitle="Nursing Research Club (NRC) - (2024 - 2025)"
+            des="Built and maintained internal research tracking systems. Implemented authentication, role-based access control, and RESTful APIs. Improved database efficiency using PostgreSQL and MySQL."
+          />
+          <ResumeCard
+            title="Junior Backend Engineer"
+            subTitle="Ingata Tech - (2025)"
+            des="Worked on backend architecture using Node.js, TypeScript, JavaScript, Express.js, and TypeORM. Implemented Redis caching and developed secure API services for internal applications. Participated in CI/CD workflows and backend deployment processes."
+          />
         </div>
       </div>
       <div>

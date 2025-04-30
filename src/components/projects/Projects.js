@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,mobileProject,project4 } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -39,12 +39,16 @@ const Projects = () => {
           src={projectThree}
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" I worked on an e-commerce project where I developed a scalable 
-          platform with secure payment integration and a user-friendly interface, 
-          enhancing the online shopping experience and driving sales growth.
-             "
-          src={projectTwo}
+          title="NRC's official website"
+          des="I developed the official website for the Nursing Research Club (NRC), focusing on creating a professional and informative platform. The website includes features such as announcements, publications, team details, and a blog section, providing users with easy access 
+          to the latest updates and resources while maintaining a clean and user-friendly design."
+          src={project4}
+        />
+         <ProjectsCard
+          title="QuickAid"
+          des="I developed a mobile application using Flutter and Dart, designed to provide emergency assistance with features like ambulance calling, emergency contacts, and locating nearby hospitals. The app offers a user-friendly
+           interface and ensures quick access to critical services, enhancing emergency response efficiency."
+          src={mobileProject}
         />
        
       </div>
